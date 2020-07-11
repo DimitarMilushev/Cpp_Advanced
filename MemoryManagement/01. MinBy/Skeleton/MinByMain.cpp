@@ -30,7 +30,7 @@ bool lessThanByLex(const std::string& a, const std::string& b) {
 }
 
 bool moreThanBySize(const std::string& a, const std::string& b) {
-	return a.size() >= b.size();
+	return a.size() > b.size();
 }
 
 int main() {
