@@ -3,9 +3,9 @@
 #include <set>
 
 #include "Song.h"
+#include "PrintUtils.h"
 #include "Parser.h"
 #include "Comparators.h"
-#include "PrintUtils.h"
 
 std::ostream& operator<<(std::ostream& out, const Song& s) {
 	return out << s.getName() << " " << s.getLengthSeconds();

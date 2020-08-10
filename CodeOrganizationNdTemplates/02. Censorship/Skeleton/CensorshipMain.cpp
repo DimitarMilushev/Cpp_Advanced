@@ -7,7 +7,7 @@
 
 int main() {
 	std::string copyrightedLine;
-	std::getline(std::cin, copyrightedLine);
+	std::getline(std::cin, copyrightedLine);				
 
 	std::set<std::string> copyrighted;
 	std::istringstream lineIn(copyrightedLine);
